@@ -1,0 +1,203 @@
+@import "variables.scss";
+
+.m-img-perfil{
+    height: 25vh;
+    aspect-ratio: 1/1;
+    position: relative;
+    z-index: 0;
+    margin: .8em 2em;
+
+    @include tablet{
+        margin: 0 .8em;
+    }
+
+    @include desktop{
+        margin: 0;
+        left: 2em;
+        height: 35vh;
+    }
+    &__img{
+        background-color: $gray-1;
+        width: 100%;
+        height: 100%;
+        border-radius: 8px;
+    }
+    &::after, &::before{
+        content: "";
+        border:2px solid white;
+        border-radius: 8px;
+        position: absolute;
+        aspect-ratio: 1;
+        z-index: -1;
+    }
+    &::after{
+        height: 105%;
+        top: .8em;
+        left: .8em;
+        @include tablet{
+            height: 100%;
+        }
+        @include desktop{
+            height: 105%;
+            top: 2em;
+            left: 2em;
+        }
+    }
+    &::before{
+        top: -.8em;
+        left: -.8em;
+        height: 85%;
+        @include tablet{
+            height: 75%;
+        }
+        @include desktop{
+            height: 80%;
+            top: -2em;
+            left: -2em;
+        }
+    }
+}
+
+.m-title{
+    color: white;
+    &--m{
+        font-size: 1em;
+        color: white;
+
+        @include desktop{
+            font-size: 1.4em;
+        }
+    }
+    &--xxl{
+        font-size: 2.6em;
+        font-weight: 800;
+        width: 40vw;
+        text-align: start;
+        text-wrap: wrap;
+        //border: 1px solid red;
+
+        @include desktop{
+            font-size: 5em;
+        }
+    }
+}
+
+.m-description{
+    color: $green-1;
+    font-size: .65em;
+    font-weight: 400;
+
+    @include desktop{
+        font-size: .9em;
+    }
+}
+
+.m-menu-hamburguer{
+    position: relative;
+    height: 1.2em;
+    width: 1.6em;
+    //border: 1px solid red;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    cursor: pointer;
+    z-index: 100;
+    &__line{
+        height: 3px;
+        background-color: white;
+        width: 100%;
+        border-radius: 2px;
+        transition: transform 0.3s ease-in, width 0.3s ease-in, color 0.3s ease-in;
+        &--left, &--right{
+            width: 50%;
+        }
+
+        &--left{
+            align-self: flex-start;
+        }
+        &--right{
+            align-self: flex-end;
+        }
+    }
+
+    &:hover{
+        .m-menu-hamburguer__line{
+            width: 100%;
+        }
+    }
+
+    &.active{
+        .m-menu-hamburguer__line{
+            background-color: $green-1;
+            &--left{
+                transform: translateY(.5em) rotate(-45deg);
+                width: 100%;
+            }
+            &--mid{
+                transform: rotate(45deg);
+            }
+            &--right{
+                width: 0;
+            }
+        }
+    }
+
+}
+
+.m-icon-social{
+    fill: #fff;
+    height: 2em;
+    width: auto;  
+    cursor: crosshair; 
+    z-index: 10;
+    transition: transform 1s ease-out, fill 1s ease-out;
+    &:hover{
+        fill: $green-1;
+        transform: rotateY(360deg);
+    }
+    @include desktop{
+        height: 3em;
+    }
+}
+
+
+
+.m-menu {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 0;
+    background: rgb(14,21,20);
+    background: linear-gradient(180deg, rgba(14,21,20,1) 50%, rgba(18,30,21,1) 79%, rgba(28,56,22,1) 100%);
+    opacity: 0;
+    overflow: hidden;
+    transition: height 0.3s, opacity 0.3s;
+    pointer-events: none; /* No permite interacciones mientras está cerrado */
+    padding: 6em;
+    ul {
+        list-style: none;
+        margin: 0;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-end;
+        li {
+            margin-bottom: 15px;
+            font-size: 2em;
+            color: $green-1;
+            cursor: pointer;
+            transition: color 0.3s;
+            font-weight: 900;
+            text-transform: uppercase;
+            @include desktop{
+                font-size: 3.6em;
+            
+            }
+        }
+        li:hover {
+        color: #00baba; /* Cambia de color al pasar el ratón */
+        }
+    }
+      
+    
+}
