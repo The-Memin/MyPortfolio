@@ -1,2 +1,2 @@
-#My portafolio
+# My portafolio
 project from my personal portfolio
