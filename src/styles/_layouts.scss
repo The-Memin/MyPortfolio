@@ -25,19 +25,14 @@
         display: flex;
         align-items: center;
         gap: 8px;
+        border-right: 2px solid $green-1;
+        animation: blink-caret .9s infinite;
+        padding-right: 5px;
         &__img{
             height: 65%;
             width: auto;
             @include desktop{
                 height: 90%;
-            }
-        }
-        &__cursor{
-            width: 2px;
-            background-color: white;
-            height: 70%;
-            @include desktop{
-                height: 100%;
             }
         }
     }
