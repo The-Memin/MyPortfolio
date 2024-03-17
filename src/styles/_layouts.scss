@@ -39,7 +39,6 @@
 
     &__ul{
         position: relative;
-        width: 50%;
         gap: 2em;
         justify-content: space-between;
         display: none;
@@ -94,15 +93,16 @@
         background-color: transparent;
         @include tablet{
             padding: 6vh 0;
-            margin: 5em 2em;
+            margin: 5em 6%;
             flex-direction: row;
-            gap: 8%;
+            gap: 12%;
         }
         @include desktop{
             border: 1px solid $green-1;
             padding: 16vh 2em;
             border-radius: 14px;
-            margin: 6em 8em;
+            margin: 6em 8%;
+            gap: 15%;
         }
     }
 }

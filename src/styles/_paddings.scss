@@ -7,13 +7,13 @@
     padding-right: 1em;
 
     @include tablet{
-        padding-left: 2em;
-        padding-right: 2em;
+        padding-left: 6%;
+        padding-right: 6%;
     }
 
     @include desktop{
-        padding-left: 4em;
-        padding-right: 4em;
+        padding-left: 8%;
+        padding-right: 8%;
     }
 
     @include bigDesktop{
