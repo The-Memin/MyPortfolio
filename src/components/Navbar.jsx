@@ -1,5 +1,5 @@
 import { useState , useRef, useEffect} from "react";
-import MenuHamburguesa from "./HambuerguerMenu";
+import HamburguerMenu from "./HamburguerMenu";
 const Navbar = () => {
 
 
@@ -15,9 +15,7 @@ const Navbar = () => {
                     </svg>
                 </div>
 
-              
-
-                <MenuHamburguesa/>
+                <HamburguerMenu/>
                 
             </nav>
         </>
