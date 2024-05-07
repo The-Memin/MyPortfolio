@@ -30,9 +30,9 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
             imagen: "tiktactoe.gif"
         },
         {
-            principal: "Lorem ipsum dolor sit amet consectetur.",
-            secundary: "Lorem ipsum dolor sit amet consectetur.",
-            imagen: " "
+            principal: "Conecta 4",
+            secundary: "Desarrollado con React y Animado con GSAP",
+            imagen: "conecta4.gif"
         },
     ]
 
@@ -48,7 +48,7 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
 
     return(
         
-        <div ref={containerRef} className="l-outer" id='aboutme'>
+        <div ref={containerRef} className="l-outer" id='projects'>
             <div className="l-scroll">
                 
                 <section className="l-section-scroll l-section-scrol--1" >

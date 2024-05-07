@@ -77,7 +77,7 @@ const horizontalScroll = {
                     trigger:sections[index+1],
                     //scrub: true,
                     containerAnimation: container,
-                    markers: true,
+                    //markers: true,
                     start:'center right'
                 }
             })
