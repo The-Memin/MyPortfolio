@@ -36,39 +36,28 @@
         }
     }
 
-    &__ul{
-        position: relative;
-        gap: 2em;
-        justify-content: space-between;
-        display: none;
-
-        @include desktop{
-            display: flex;
-        }
-
-        &__li{
-            cursor: crosshair;
-            position: relative;
-            font-weight: 600;
-            padding-bottom: 1px;
-            &::after{
-                content: "";
-                position: absolute;
-                bottom: 0;
-                left: 50%;
-                transform: translateX(-50%);
-                height: 2px;
-                width: 0;
-                background-color: white;
-                transition: width 0.3s ease-in;
-            }
-            &:hover{
-                &::after{
-                    width: 100%;
+    &.bg-white{
+        .l-navbar__logo{
+            border-right: 2px solid $principal-color;
+            animation: blink-caret-black .9s infinite;
+            &__img{
+                path{
+                    transition: all .6s ease-in;
+                }
+                .path-2{
+                    fill: $principal-color;
+                }
+                .path-1{
+                    fill: $principal-color;
                 }
             }
         }
+        .m-menu-hamburguer__line{
+            background-color: $principal-color;
+        }
     }
+    
+   
 }
 
 .l-header{
@@ -76,10 +65,19 @@
     z-index: 1;
     width: 100%;
     height: fit-content;
-    //border: 1px solid red;
+    min-height: 100vh;
+    display: grid;
+    place-items: center;
+    padding: 5em 1em;
+    @include tablet{
+        padding: 5em 6%;
+    }
+    @include desktop{
+        padding: 6em 8% 2em;
+    }
     &__content{
+        width: 100%;
         //padding: 6em 2em 2em 2em;
-        margin: 5em 1em;
         position: relative;
         height: fit-content;
         display: flex;
@@ -90,15 +88,13 @@
         background-color: transparent;
         @include tablet{
             padding: 6vh 0;
-            margin: 5em 6%;
             flex-direction: row;
             gap: 12%;
         }
         @include desktop{
             border: 1px solid $green-1;
-            padding: 16vh 2em;
-            border-radius: 14px;
-            margin: 6em 8%;
+            padding: 12vh 2em;
+            border-radius: 12px;
             gap: 15%;
         }
     }
@@ -129,4 +125,80 @@
 .l-social-media{
     display: flex;
     gap: 2em;
+}
+
+.l-section-skills{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+    display: grid;
+    place-items: center;
+    background-color: $principal-color;
+}
+
+.l-outer {
+    position: relative;
+    overflow: hidden;
+}
+.l-scroll {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+    //border: 2px solid red;
+    overflow: hidden;
+}
+
+.l-section-scroll {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex: 1;
+    padding: 4em 8%;
+    &:nth-of-type(1) {
+        border: 0px solid #373a3b;
+    }
+    &:nth-of-type(2) {
+        background-color: rgb(247, 247, 247);
+        grid-template-rows: auto;
+        transform: translateX(100%);
+        & > :nth-child(even){
+            flex-direction: row-reverse;
+        }
+        
+        *{
+            color: $principal-color !important;
+        }
+    }
+    &:nth-of-type(3) {
+        background-color: $green-1;
+        transform: translateX(100%);
+        *{
+            color: $principal-color !important;
+        }
+    }
+}
+
+.l-article-about{
+    position: relative;
+    display: flex;
+    gap: 1em;
+    justify-content: space-around;
+    //border: 1px solid blue;
+    width: 100%;
+    height: 100%;
+    //align-items: center;
+}
+
+.l-about-title{
+    //border: 1px solid red;
+    display: flex;
+    //align-items: center;
+    justify-content: center;
+    flex-direction: column;
 }

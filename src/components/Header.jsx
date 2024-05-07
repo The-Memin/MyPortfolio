@@ -10,7 +10,7 @@ const Header = () => {
 
     return (
         <>
-        <header className="l-header">
+        <header className="l-header" id="home">
             <section className="l-header__content">
                 <div className="m-img-perfil">
                     <img src={foto} alt="" className="m-img-perfil__img" />

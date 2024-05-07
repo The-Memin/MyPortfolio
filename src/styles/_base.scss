@@ -26,26 +26,5 @@ li{
     color: #f4f4f4;
 }
 
-.outer {
-    overflow: hidden;
-}
-.scroll {
-    display: flex;
-    width: 300%;
-    overflow-x: hidden;
-}
 
-.l-section-scroll {
-    height: 100vh;
-    width: 100%;
-    display: grid;
-    place-content: center;
-    flex: 1;
 
-    &:nth-of-type(2) {
-        background-color: #2b7d7b;
-    }
-    &:nth-of-type(3) {
-        background-color: #462088;
-    }
-}

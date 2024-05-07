@@ -7,6 +7,7 @@
     margin: .8em 2em;
     width: 70%;
     max-width: 40vh;
+   
     @include tablet{
         width: 100%;
         margin: 0 .8em;
@@ -22,6 +23,7 @@
         width: 100%;
         height: 100%;
         border-radius: 8px;
+        object-fit:scale-down;
     }
     &::after, &::before{
         content: "";
@@ -60,13 +62,19 @@
 }
 
 .m-title{
+    position: relative;
     color: white;
     &--m{
         font-size: 1em;
-        color: white;
-
         @include desktop{
             font-size: 1.4em;
+        }
+    }
+    &--xl{
+        font-size: 2.5em;
+
+        @include desktop{
+            font-size: 3.5em;
         }
     }
     &--xxl{
@@ -78,7 +86,7 @@
         //border: 1px solid red;
 
         @include desktop{
-            font-size: 11vh;
+            font-size: clamp(8vh, 6.5vw, 11vh);
         }
     }
     
@@ -106,12 +114,14 @@
     justify-content: space-between;
     cursor: pointer;
     z-index: 100;
+    transition: all .4s ease-in-out;
+
     &__line{
         height: 3px;
         background-color: white;
         width: 100%;
         border-radius: 2px;
-        transition: transform 0.3s ease-in, width 0.3s ease-in, color 0.3s ease-in;
+        transition: all 0.3s ease-in,;
         &--left, &--right{
             width: 50%;
         }
@@ -130,7 +140,7 @@
         }
     }
 
-    transition: all .4s ease-in-out;
+    
     &.active{
         @include desktop{
             transform: translateX(4em);
@@ -150,6 +160,25 @@
             }
             &--right{
                 width: 0;
+            }
+        }
+        &:hover{
+            transform:rotate(90deg);
+            @include desktop{
+                transform:translateX(4em) rotate(90deg);
+            }
+            .m-menu-hamburguer__line{
+                box-shadow: 1px -1px 3px 0px rgba(14,21,20,0.75);
+            }
+        }
+        &.negative{
+            .m-menu-hamburguer__line{
+                background-color: #fff;
+            }
+            &:hover{
+                .m-menu-hamburguer__line{
+                    background-color: $green-1
+                }
             }
         }
     }
@@ -172,7 +201,22 @@
     }
 }
 
-
+.m-overlay{
+    position: fixed;
+    height: 100vh;
+    width: 100%;
+    top: 0;
+    right: 0;
+    background-color: $black-down;
+    z-index: 1;
+    transition: opacity .3s ease-in-out;
+    pointer-events: none;
+    opacity: 0;
+    &.active{
+        opacity: 1;
+        pointer-events: all;
+    }
+}
 
 .m-menu {
     position: fixed;
@@ -180,21 +224,14 @@
     right: 0;
     width: 100%;
     height: 0;
-    background: #0e1514;
+    background: $principal-color;
     opacity: 0;
     overflow: hidden;
     transition: all 0.3s ease-in;
     pointer-events: none; /* No permite interacciones mientras está cerrado */
     padding: 6em;
     z-index: 90;
-    @include desktop{
-        width: 28vw;
-        height: 100vh;
-        background: $green-1;
-        transform: translateX(20vw);
-        transition: all 0.4s ease-in;
-        padding:6em calc(8% - 4em) 10em 6em !important;
-    }
+    
     ul {
         position: relative;
         list-style: none;
@@ -209,9 +246,11 @@
         li {
             position: relative;
             transition: background-color .3s ease-in, padding .3s ease-in;
+            width: fit-content;
             &:hover{
                 padding: 0 1em;
                 background-color: #0e1514;
+                //transform: rotate(10deg) !important;
                 a{
                     color: #fff;
                 }
@@ -221,7 +260,7 @@
                 margin-bottom: 15px;
                 font-size: 2em;
                 color: $green-1;
-                transition: color 0.3s ease, transform 3s ease;
+                transition: color .5s ease, transform 3s ease;
                 font-weight: 900;
                 text-transform: uppercase;
                 
@@ -233,7 +272,34 @@
             }
         }
     }
-      
+    
+    @include desktop{
+        width: 32vw;
+        max-width: 28em;
+        height: 100vh;
+        background: $green-1;
+        transform: translateX(20vw);
+        transition: all 0.4s ease-in;
+        padding:6em calc(8% - 4em) 10em 6em !important;
+
+        &.negative{
+            background: $principal-color;
+            li{
+                &:hover{
+                    padding: 0 1em;
+                    background-color: $green-1;
+                    //transform: rotate(10deg) !important;
+                    a{
+                        color: $principal-color;
+                    }
+                }
+                a{
+                    color: white;
+                }
+            }
+        }
+    }
+
     &.active{
         pointer-events: all;
         opacity: 1;
@@ -242,6 +308,33 @@
             transform: translateX(0);
         }
     }
-    
+}
 
+
+.m-text-hidden{
+    //border: 1px solid green;
+    position: relative;
+    overflow: hidden;
+    font-weight: 400;
+    //transform: translateY(3em);
+    &__down{
+        position: relative;
+        //border: 1px solid red;
+        top: 100%;
+    }
+}
+h2.m-text-hidden{
+    font-size: 1.7em ;
+}
+
+.m-about-figure{
+    display: flex;
+    align-self: center;
+    position: relative;
+    height: 20vh;
+
+    img{
+        position: relative;
+        height: 100%;
+    }
 }

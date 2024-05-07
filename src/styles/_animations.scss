@@ -5,4 +5,12 @@
     50% {
       border-color: $green-1;
     }
+}
+@keyframes blink-caret-black {
+  from, to {
+    border-color: transparent;
   }
+  50% {
+    border-color: $principal-color;
+  }
+}
