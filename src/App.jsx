@@ -13,7 +13,7 @@ function App() {
                 <Navbar negativeMenu = {negativeMenu}/>
                 <Header/>     
                 <SecHorizontal 
-                    toggleNegativeMenu={ setNegativeMenu} 
+                    toggleNegativeMenu={setNegativeMenu} 
                 />
                 <SectionSkills/>
             </div>

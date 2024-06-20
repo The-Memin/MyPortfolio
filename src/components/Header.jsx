@@ -7,38 +7,37 @@ import EmailIcon from "../assets/images/svg/mail.jsx";
 
 const Header = () => {
 
-
     return (
         <>
-        <header className="l-header" id="home">
-            <section className="l-header__content">
-                <div className="m-img-perfil">
-                    <img src={foto} alt="" className="m-img-perfil__img" />
-                </div>
-                <article className="l-presentation">
-                    <div className="l-presentaion__titles">
-                        <h1 className="m-title m-title--m">Guillermo Juárez Martínez</h1>
-                        <h1 className="m-title m-title--xxl">Web Developer.</h1>
+            <header className="l-header" id="home">
+                <section className="l-header__content">
+                    <div className="m-img-perfil">
+                        <img src={foto} alt="" className="m-img-perfil__img" />
                     </div>
-                    
-                    <div className="l-presentation__description">
-                        <p className="m-description">
-                        Passionate Frontend Developer dedicated to crafting captivating web experiences.
-                        </p>
-                        <p className="m-description">
-                        Focused on efficiency for smooth, high-performance designs.
-                        </p>
-                    </div>
+                    <article className="l-presentation">
+                        <div className="l-presentaion__titles">
+                            <h1 className="m-title m-title--m">Guillermo Juárez Martínez</h1>
+                            <h1 className="m-title m-title--xxl">Web Developer.</h1>
+                        </div>
+                        
+                        <div className="l-presentation__description">
+                            <p className="m-description">
+                            Passionate Frontend Developer dedicated to crafting captivating web experiences.
+                            </p>
+                            <p className="m-description">
+                            Focused on efficiency for smooth, high-performance designs.
+                            </p>
+                        </div>
 
-                    <div className="l-social-media">
-                        <GithubLogo/>
-                        <LinkedinIcon/>
-                        <EmailIcon/>
-                    </div>
+                        <div className="l-social-media">
+                            <GithubLogo/>
+                            <LinkedinIcon/>
+                            <EmailIcon/>
+                        </div>
 
-                </article>
-            </section>
-        </header>
+                    </article>
+                </section>
+            </header>
         </>
     );
 }

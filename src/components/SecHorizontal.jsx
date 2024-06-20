@@ -10,6 +10,7 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
     const containerRef = useRef(null);
     const textRef = useRef(null);
     const articulos1 = [];
+    const articulos2 = [];
 
     useGSAP(()=> { 
         const container = containerRef.current;
@@ -23,7 +24,7 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
         setArrContainers(newContainers);
     })
 
-    const texts = [
+    const texts1 = [
         {
             principal: "Tik-Tak-Toe",
             secundary: "Desarrollo interactivo de Tic-Tac-Toe con React y CSS",
@@ -34,18 +35,30 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
             secundary: "Desarrollado con React y Animado con GSAP",
             imagen: "conecta4.gif"
         },
+        
+    ]
+    const texts2 = [
+        {
+            principal: "Chat with React",
+            secundary: "Chat en tiempo real usando React y Socket.io",
+            imagen: "chat.gif"
+        },
     ]
 
-    texts.forEach((text, index )=>{
-        articulos1.push(
-            <ArticleAbout 
-                key={index+"text"} 
-                principalText={text.principal} 
-                secondaryText={text.secundary}
-                urlImagen={`./src/assets/images/gif/${text.imagen}`}
-        />);
-    })
+    function pushSection(labels, arr) {
+        labels.forEach((text, index )=>{
+            arr.push(
+                <ArticleAbout 
+                    key={index+"text"} 
+                    principalText={text.principal} 
+                    secondaryText={text.secundary}
+                    urlImagen={`./src/assets/images/gif/${text.imagen}`}
+            />);
+        })
+    }
 
+    pushSection(texts1, articulos1)
+    pushSection(texts2, articulos2)
     return(
         
         <div ref={containerRef} className="l-outer" id='projects'>
@@ -58,7 +71,7 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
                     {articulos1}
                 </section>
                 <section className="l-section-scroll l-section-scroll--3">
-                    <ArticleAbout/>
+                    {articulos2}
                 </section>
             </div>
         </div>
