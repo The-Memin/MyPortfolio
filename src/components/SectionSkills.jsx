@@ -52,10 +52,11 @@ const SectionSkills = ()=>{
                     </div>
                     <div className="l-skill-group">
                         <Skill imgName="express" percent='65'/>
+                        <Skill imgName="spring-logo" percent='40'/>
                     </div>
                 </div>
 
-                <div className="l-skills">
+                <div className="l-skills l-skills--center">
                     <h2 className="m-skill-type">
                         More Skills
                     </h2>

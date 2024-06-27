@@ -2,30 +2,9 @@ import React, { useState, useEffect } from 'react';
 import gsap from 'gsap';
 import Overlay from './Overlay';
 import randomType from '../animations/randomType'
+import { menuOptions } from '../constants/menuOptions';
 const HamburguerMenu = ({ negativeMenu }) => {
     const [menuAbierto, setMenuAbierto] = useState(false);
-    const menuOptions = [
-        {
-            name: 'home',
-            link: 'home',
-        },
-        {
-            name: 'projects',
-            link: 'projects',
-        },
-        {
-            name: 'skills',
-            link: 'skills',
-        },
-        {
-            name: 'experience',
-            link: 'experience',
-        },
-        {
-            name:'contact',
-            link: 'contact',
-        }
-    ]
     
     const toggleMenu = () => {
         setMenuAbierto(!menuAbierto);

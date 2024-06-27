@@ -3,7 +3,6 @@ import horizontalScroll from '../animations/horizontalScroll';
 import textDecode from "../animations/textDecode";
 import { useGSAP } from '@gsap/react';
 import ArticleAbout from './ArticleAbout';
-import SplitType from 'split-type';
 
 const SecHorizontal = ({ toggleNegativeMenu})=>{
     const [arrContainers, setArrContainers] = useState([]);
@@ -26,9 +25,9 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
 
     const texts1 = [
         {
-            principal: "Tik-Tak-Toe",
-            secundary: "Desarrollo interactivo de Tic-Tac-Toe con React y CSS",
-            imagen: "tiktactoe.gif"
+            principal: "WordPress websites",
+            secundary: "Manage your website using the web's most popular content management system.",
+            imagen: "paginas.gif"
         },
         {
             principal: "Conecta 4",
@@ -42,6 +41,11 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
             principal: "Chat with React",
             secundary: "Chat en tiempo real usando React y Socket.io",
             imagen: "chat.gif"
+        },
+        {
+            principal: "Tik-Tak-Toe",
+            secundary: "Desarrollo interactivo de Tic-Tac-Toe con React y CSS",
+            imagen: "tiktactoe.gif"
         },
     ]
 

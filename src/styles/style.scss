@@ -1,7 +1,10 @@
+// En tu archivo styles.scss
+@import "@fortawesome/fontawesome-free/css/all.css";
 @import 'base';
 @import 'mixins';
 @import 'variables';
 @import 'layouts';
 @import 'modules';
+@import 'free';
 @import 'paddings';  
 @import 'animations'

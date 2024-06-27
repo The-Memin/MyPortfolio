@@ -4,6 +4,9 @@ import Navbar from './components/Navbar';
 import Header from './components/Header';
 import SecHorizontal from './components/SecHorizontal';
 import SectionSkills from './components/SectionSkills';
+import SectionPop from './components/SectionPop';
+import ContactSection from './components/ContactSection';
+import Footer from './components/Footer';
 function App() {
     const [negativeMenu, setNegativeMenu] = useState(false);
 
@@ -16,6 +19,9 @@ function App() {
                     toggleNegativeMenu={setNegativeMenu} 
                 />
                 <SectionSkills/>
+                <SectionPop/>
+                <ContactSection />
+                <Footer />
             </div>
         </ReactLenis>
     )
