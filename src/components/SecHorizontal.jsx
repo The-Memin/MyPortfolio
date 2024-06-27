@@ -56,7 +56,7 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
                     key={index+"text"} 
                     principalText={text.principal} 
                     secondaryText={text.secundary}
-                    urlImagen={`./src/assets/images/gif/${text.imagen}`}
+                    urlImagen={`/src/assets/images/gif/${text.imagen}`}
             />);
         })
     }

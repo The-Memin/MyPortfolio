@@ -1,7 +1,6 @@
-import { useState, useEffect, useRef } from "react";
-import * as THREE from "three";
-import foto from "../assets/images/png/perfil.png";
-import GithubLogo from "../assets/images/svg/github.jsx";
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
+import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import LinkedinIcon from "../assets/images/svg/linkedin.jsx";
 import EmailIcon from "../assets/images/svg/mail.jsx";
 
@@ -12,7 +11,7 @@ const Header = () => {
             <header className="l-header" id="home">
                 <section className="l-header__content">
                     <div className="m-img-perfil">
-                        <img src={foto} alt="" className="m-img-perfil__img" />
+                        <img src='/src/assets/images/png/perfil.png' alt="" className="m-img-perfil__img" />
                     </div>
                     <article className="l-presentation">
                         <div className="l-presentaion__titles">
@@ -30,9 +29,18 @@ const Header = () => {
                         </div>
 
                         <div className="l-social-media">
-                            <GithubLogo/>
-                            <LinkedinIcon/>
-                            <EmailIcon/>
+                            <a href="https://github.com/The-Memin" className="m-icon-social">
+                                <FontAwesomeIcon icon={faGithub} />
+                            </a>
+                            <a href="https://wa.me/9516402940" className="m-icon-social">
+                                <FontAwesomeIcon icon={faWhatsapp} />
+                            </a>
+                            <a href="https://linkedin.com/in/guillermo-juarez-martinez-665b66262" className="m-icon-social" >
+                                <FontAwesomeIcon icon={faLinkedin} />
+                            </a>
+                            <a href="https://github.com/The-Memin" className="m-icon-social">
+                                <FontAwesomeIcon icon={faGithub} />
+                            </a>
                         </div>
 
                     </article>
