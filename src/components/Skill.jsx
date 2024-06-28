@@ -2,7 +2,7 @@ import { useGSAP } from '@gsap/react';
 import gsap from 'gsap';
 import { useRef } from 'react';
 const Skill = ({imgName, percent, noPercent})=>{
-    const URLImages = '/src/assets/images/png/';
+    const URLImages = './src/assets/images/png/';
     const percentRef = useRef(null);
     useGSAP(()=>{
         gsap.to(percentRef.current,{

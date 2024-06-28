@@ -1,8 +1,5 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import LinkedinIcon from "../assets/images/svg/linkedin.jsx";
-import EmailIcon from "../assets/images/svg/mail.jsx";
 
 const Header = () => {
 
@@ -11,7 +8,7 @@ const Header = () => {
             <header className="l-header" id="home">
                 <section className="l-header__content">
                     <div className="m-img-perfil">
-                        <img src='/src/assets/images/png/perfil.png' alt="" className="m-img-perfil__img" />
+                        <img src='./src/assets/images/png/perfil.png' alt="" className="m-img-perfil__img" />
                     </div>
                     <article className="l-presentation">
                         <div className="l-presentaion__titles">

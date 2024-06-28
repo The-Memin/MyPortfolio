@@ -24,7 +24,7 @@ const SectionPop = () =>{
                     text={testimonial.text}
                     author={testimonial.author}
                     role={testimonial.role}
-                    imageUrl={`/src/assets/images/photos/${testimonial.imageName}`}
+                    imageUrl={`./src/assets/images/photos/${testimonial.imageName}`}
                     />
                 ))}
                 </div>
