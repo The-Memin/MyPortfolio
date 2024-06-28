@@ -1,7 +1,7 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
 import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
-import perfil from '../assets/images/png/perfil.png';
+import perfil from '/assets/images/png/perfil.png';
 const Header = () => {
 
     return (
@@ -9,7 +9,7 @@ const Header = () => {
             <header className="l-header" id="home">
                 <section className="l-header__content">
                     <div className="m-img-perfil">
-                        <img src={perfil} alt="" className="m-img-perfil__img" />
+                        <img src='/assets/images/png/perfil.png' alt="" className="m-img-perfil__img" />
                     </div>
                     <article className="l-presentation">
 

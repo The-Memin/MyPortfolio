@@ -36,10 +36,10 @@ const ContactForm = () => {
 
   return (
     <form className="contact-form" onSubmit={handleSubmit}>
-      <input type="text" placeholder="Nombre" value={name} onChange={(e) => setName(e.target.value)} required />
-      <input type="email" placeholder="Correo electrónico" value={email} onChange={(e) => setEmail(e.target.value)} required />
-      <textarea placeholder="Mensaje" value={message} onChange={(e) => setMessage(e.target.value)} required />
-      <button type="submit">Enviar</button>
+      <input type="text" placeholder="Name" value={name} onChange={(e) => setName(e.target.value)} required />
+      <input type="email" placeholder="Email" value={email} onChange={(e) => setEmail(e.target.value)} required />
+      <textarea placeholder="Message" value={message} onChange={(e) => setMessage(e.target.value)} required />
+      <button type="submit">Send</button>
     </form>
   );
 };

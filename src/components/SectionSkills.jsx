@@ -2,7 +2,6 @@ import {useRef} from 'react';
 import { useGSAP } from '@gsap/react';
 import Skill from './Skill';
 import textDecode from "../animations/textDecode";
-import gsap from 'gsap';
 
 const SectionSkills = ()=>{
     const sectionRef = useRef(null);
