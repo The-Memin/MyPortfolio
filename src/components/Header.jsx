@@ -1,5 +1,6 @@
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import { faGithub, faLinkedin, faWhatsapp } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
 import perfil from '../assets/images/png/perfil.png';
 const Header = () => {
 
@@ -26,8 +27,8 @@ const Header = () => {
                         </div>
 
                         <div className="l-social-media">
-                            <a href="https://github.com/The-Memin" className="m-icon-social">
-                                <FontAwesomeIcon icon={faGithub} />
+                            <a href="mailto:guillejuma@outlook.es" className="m-icon-social">
+                                <FontAwesomeIcon icon={faEnvelope} />
                             </a>
                             <a href="https://wa.me/9516402940" className="m-icon-social">
                                 <FontAwesomeIcon icon={faWhatsapp} />
