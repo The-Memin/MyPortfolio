@@ -156,7 +156,7 @@
     justify-content: space-between;
     background-color: $principal-color;
     overflow: hidden;
-    gap: 2em;
+    gap: 3em;
     @include tablet{
         padding: 6em 0;
     }
@@ -265,7 +265,7 @@
     display: flex;
     flex-direction: column;
     height: fit-content;
-
+    gap: 4em;
     @include tablet{
         display: grid;
         gap: 3em;
@@ -283,7 +283,7 @@
     gap: 16px;
     align-items: center;
     h2{
-        margin-bottom: 2em;
+        margin-bottom: 1em;
         @include desktop{
             margin-bottom: .6em;
         }
