@@ -18,7 +18,7 @@ const Header = () => {
                         
                         <div className="l-presentation__description">
                             <p className="m-description">
-                            Passionate Frontend Developer dedicated to crafting captivating web experiences.
+                            Passionate Developer dedicated to crafting captivating web experiences.
                             </p>
                             <p className="m-description">
                             Focused on efficiency for smooth, high-performance designs.

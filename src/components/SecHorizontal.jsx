@@ -30,8 +30,8 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
             imagen: "paginas.gif"
         },
         {
-            principal: "Conecta 4",
-            secundary: "Desarrollado con React y Animado con GSAP",
+            principal: "Connect Four",
+            secundary: "Developed with React and Animated with GSAP",
             imagen: "conecta4.gif"
         },
         
@@ -39,12 +39,12 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
     const texts2 = [
         {
             principal: "Chat with React",
-            secundary: "Chat en tiempo real usando React y Socket.io",
+            secundary: "Real-time chat using React and Socket.io",
             imagen: "chat.gif"
         },
         {
             principal: "Tik-Tak-Toe",
-            secundary: "Desarrollo interactivo de Tic-Tac-Toe con React y CSS",
+            secundary: "Interactive Tic-Tac-Toe Development with React and CSS",
             imagen: "tiktactoe.gif"
         },
     ]

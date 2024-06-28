@@ -322,11 +322,16 @@
     position: relative;
     overflow: hidden;
     font-weight: 400;
+    font-size: em;
     //transform: translateY(3em);
     &__down{
         position: relative;
+        font-size: .9em;
         //border: 1px solid red;
         top: 100%;
+        @include tablet{
+            font-size: 1em;
+        }
     }
 }
 
@@ -347,11 +352,11 @@ h2.m-text-hidden{
     display: flex;
     align-self: center;
     position: relative;
-    height: 20vh;
+    width: 100%;
 
     img{
         position: relative;
-        height: 100%;
+        width: 100%;
     }
 }
 
