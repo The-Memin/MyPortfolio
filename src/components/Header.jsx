@@ -9,7 +9,7 @@ const Header = () => {
             <header className="l-header" id="home">
                 <section className="l-header__content">
                     <div className="m-img-perfil">
-                        <img src='/assets/images/png/perfil.png' alt="" className="m-img-perfil__img" />
+                        <img src='./assets/images/png/perfil.png' alt="" className="m-img-perfil__img" />
                     </div>
                     <article className="l-presentation">
 

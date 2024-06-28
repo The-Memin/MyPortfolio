@@ -1,11 +1,10 @@
-import React, {useEffect, useRef, useState} from 'react';
+import React, {useRef, useState} from 'react';
 import horizontalScroll from '../animations/horizontalScroll';
 import textDecode from "../animations/textDecode";
 import { useGSAP } from '@gsap/react';
 import ArticleAbout from './ArticleAbout';
 
 const SecHorizontal = ({ toggleNegativeMenu})=>{
-    const [arrContainers, setArrContainers] = useState([]);
     const containerRef = useRef(null);
     const textRef = useRef(null);
     const articulos1 = [];
@@ -16,11 +15,8 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
         let scroller = container.querySelector(".l-scroll");
         let sections = container.querySelectorAll(".l-scroll .l-section-scroll")
         const newContainers = horizontalScroll.scroller(scroller, sections, toggleNegativeMenu);
-        //horizontalScroll.scaleSection(sections);
         horizontalScroll.upText(newContainers, sections);
         textDecode(textRef.current, containerRef.current, 'top', 'center-=150');
-
-        setArrContainers(newContainers);
     })
 
     const texts1 = [

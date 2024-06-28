@@ -13,8 +13,8 @@ export const testimonials = [
     },
     {
       text: "Guillermo did an excellent job developing our website. The site is fast, functional, and very user-friendly. We are very pleased with the results.",
-      author: "Desiré Aquino",
-      role: "Satisfied Client",
+      author: "Desiré Gonzalez Aquino",
+      role: "Satisfied Client of Concepto y Spa",
       imageName: "desire.png"
     },
     {

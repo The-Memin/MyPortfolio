@@ -1,4 +1,4 @@
-import { useEffect, useState } from 'react'
+import { useState } from 'react'
 import { ReactLenis } from '@studio-freight/react-lenis'
 import Navbar from './components/Navbar';
 import Header from './components/Header';
@@ -19,7 +19,9 @@ function App() {
                     toggleNegativeMenu={setNegativeMenu} 
                 />
                 <SectionSkills/>
-                <SectionPop/>
+                <SectionPop
+                    toggleNegativeMenu={setNegativeMenu} 
+                />
                 <ContactSection />
                 <Footer />
             </div>
