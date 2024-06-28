@@ -14,7 +14,7 @@ const SectionSkills = ()=>{
     return(
         <section ref={sectionRef} className="l-section-skills" id="skills">
             <article className="l-article-title">
-                <h1 ref={textRef} className='m-title--xl'>Skills</h1>
+                <h1 ref={textRef} >Skills</h1>
             </article>
 
             <article className="l-article-skill">

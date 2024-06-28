@@ -12,8 +12,8 @@ const SectionPop = () =>{
 
     return (
         <div ref={sectionRef} className="l-section" id="testimonials">
-            <article className="l-article-title">
-                <h1 ref={textRef} className='m-title--xl'>Testimonials</h1>
+            <article className="l-article-title l-article-title--white">
+                <h1 ref={textRef}>Testimonials</h1>
             </article>
 
             <article className="l-article">
