@@ -5,6 +5,7 @@ import { useGSAP } from '@gsap/react';
 import ArticleAbout from './ArticleAbout';
 
 const SecHorizontal = ({ toggleNegativeMenu})=>{
+    const [arrContainers, setArrContainers] = useState([]);
     const containerRef = useRef(null);
     const textRef = useRef(null);
     const articulos1 = [];
@@ -17,6 +18,7 @@ const SecHorizontal = ({ toggleNegativeMenu})=>{
         const newContainers = horizontalScroll.scroller(scroller, sections, toggleNegativeMenu);
         horizontalScroll.upText(newContainers, sections);
         textDecode(textRef.current, containerRef.current, 'top', 'center-=150');
+        setArrContainers(newContainers);
     })
 
     const texts1 = [
