@@ -12,6 +12,7 @@ const Header = () => {
                         <img src={perfil} alt="" className="m-img-perfil__img" />
                     </div>
                     <article className="l-presentation">
+
                         <div className="l-presentaion__titles">
                             <h1 className="m-title m-title--m">Guillermo Juárez Martínez</h1>
                             <h1 className="m-title m-title--xxl">Web Developer.</h1>
@@ -27,17 +28,17 @@ const Header = () => {
                         </div>
 
                         <div className="l-social-media">
-                            <a href="mailto:guillejuma@outlook.es" className="m-icon-social">
-                                <FontAwesomeIcon icon={faEnvelope} />
-                            </a>
-                            <a href="https://wa.me/9516402940" className="m-icon-social">
-                                <FontAwesomeIcon icon={faWhatsapp} />
+                            <a href="https://github.com/The-Memin" className="m-icon-social">
+                                <FontAwesomeIcon icon={faGithub} />
                             </a>
                             <a href="https://linkedin.com/in/guillermo-juarez-martinez-665b66262" className="m-icon-social" >
                                 <FontAwesomeIcon icon={faLinkedin} />
                             </a>
-                            <a href="https://github.com/The-Memin" className="m-icon-social">
-                                <FontAwesomeIcon icon={faGithub} />
+                            <a href="https://wa.me/9516402940" className="m-icon-social">
+                                <FontAwesomeIcon icon={faWhatsapp} />
+                            </a>
+                            <a href="mailto:guillejuma@outlook.es" className="m-icon-social">
+                                <FontAwesomeIcon icon={faEnvelope} />
                             </a>
                         </div>
 
