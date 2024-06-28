@@ -9,16 +9,16 @@ const ContactSection = () => {
 
                 <h2>Contact</h2>
                 <div className="contact-links">
-                    <a href="mailto:guillejuma@outlook.es" className="contact-link" style={{ backgroundColor: '#69f723' }}>
+                    <a href="mailto:guillejuma@outlook.es" target='_blank' className="contact-link" style={{ backgroundColor: '#69f723' }}>
                         <FontAwesomeIcon icon={faEnvelope} /> Email
                     </a>
-                    <a href="https://wa.me/9516402940" className="contact-link" style={{ backgroundColor: '#03FA6E' }}>
+                    <a href="https://wa.me/9516402940" target='_blank' className="contact-link" style={{ backgroundColor: '#03FA6E' }}>
                         <FontAwesomeIcon icon={faWhatsapp} /> WhatsApp
                     </a>
-                    <a href="https://linkedin.com/in/guillermo-juarez-martinez-665b66262" className="contact-link" style={{ backgroundColor: '#006414' }}>
+                    <a href="https://linkedin.com/in/guillermo-juarez-martinez-665b66262" target='_blank'className="contact-link" style={{ backgroundColor: '#006414' }}>
                         <FontAwesomeIcon icon={faLinkedin} /> LinkedIn
                     </a>
-                    <a href="https://github.com/The-Memin" className="contact-link" style={{ backgroundColor: '#0E1514' }}>
+                    <a href="https://github.com/The-Memin" target='_blank' className="contact-link" style={{ backgroundColor: '#0E1514' }}>
                         <FontAwesomeIcon icon={faGithub} /> GitHub
                     </a>
                 </div>
