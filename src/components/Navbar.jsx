@@ -9,12 +9,12 @@ export function Navbar(){
       headroom.init();
     }, []);
     return(
-        <nav ref={navRef} className="bg-dark-background fixed h-14 flex  w-full max-w-screen-lg justify-between items-center">
-            <ul className="flex items-center justify-center gap-10 text-md w-full">
-                <li>Experiencie</li>
-                <li>Projects</li>
-                <li>About me</li>
-                <li>Contact</li>
+        <nav ref={navRef} className="fixed h-14 w-full max-w-screen-lg flex items-center justify-center gap-4 lg:gap-10 text-sm z-20">
+            <ul className="w-fit flex gap-4 py-2 px-4 rounded-full">
+                <a href="">Experience</a>
+                <a href="">Last Projects</a>
+                <a href="">About Me</a>
+                <a href="">Contact</a>
             </ul>
         </nav>
     )

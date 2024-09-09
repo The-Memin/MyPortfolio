@@ -27,3 +27,8 @@
     background: linear-gradient(156deg, rgba(5,81,88,1) 0%, rgba(40,175,235,1) 100%);
     filter: progid:DXImageTransform.Microsoft.gradient(startColorstr="#055158",endColorstr="#28afeb",GradientType=1);
 }
+
+
+.headroom--not-top ul{
+    background-color: #242424;
+}

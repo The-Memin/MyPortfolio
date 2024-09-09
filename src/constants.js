@@ -36,6 +36,6 @@ export const PROJECTS = [
         tecnologies:['React','Tailwind'],
         description:'Prototipo de eShop hecho con react y tailwind, para mostrar mis habilidades en el uso de ambas tecnologias.',
         url: '',
-        url_code: 'https://github.com/The-Memin/aprendiendo-react'
+        url_code: 'https://github.com/The-Memin/aprendiendo-react/tree/master/projects/07-shopping-cart'
     }
 ]
