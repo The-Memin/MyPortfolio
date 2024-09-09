@@ -14,7 +14,7 @@ export function Navbar(){
                 <a href="#experience">Experience</a>
                 <a href="#projects">Last Projects</a>
                 <a href="#about">About Me</a>
-                <a href="emailto:guillejuma@outlook.es">Contact</a>
+                <a href="mailto:guillejuma@outlook.es">Contact</a>
             </ul>
         </nav>
     )
