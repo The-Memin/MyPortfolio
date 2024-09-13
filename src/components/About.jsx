@@ -7,13 +7,13 @@ export function About(){
             <article className="flex flex-col items-center justify-center gap-12 text-gray-700 dark:text-gray-300 md:flex-row">
                 <div className="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1">
                     <p>
-                    Soy Guillermo, desarrollador web con más de un año de experiencia en frontend y conocimientos sólidos en backend. Trabajo con tecnologías como <strong>React, HTML5, CSS3, JavaScript, PHP y Node.js </strong>.
+                    I'm Guillermo, a web developer with over a year of frontend experience and solid backend knowledge. I work with technologies such as <strong>React, HTML5, CSS3, JavaScript, PHP, and Node.js </strong>.
                     </p>
                     <p>
-                    He creado sitios modernos, tiendas en línea y soluciones empresariales, enfocándome en funcionalidad y diseño. Uso herramientas como WordPress, GSAP y Tailwind CSS, y <strong> he colaborado en proyectos internacionales </strong>.
+                    I've built modern sites, online stores, and enterprise solutions, focusing on functionality and design. I use tools like WordPress, GSAP, and Tailwind CSS.
                     </p>
                     <p>
-                    Me apasiona el aprendizaje constante y la integración de nuevas tecnologías. Mi objetivo es ofrecer <strong>soluciones que superen expectativas</strong>, brindando valor en cada proyecto que realizo.
+                    I'm passionate about constant learning and integrating new technologies. My goal is to offer <strong>solutions that exceed expectations</strong>, providing value in every project I undertake.
                     </p>
                 </div>
                 <img src="./guillermo.webp" alt="" width="200" height="200" className="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20 "/>
