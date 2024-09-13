@@ -2,7 +2,7 @@
 export function About(){
 
     return(
-        <section id="about" className="section undefined scroll-m-20 px-6 lg:px-0 w-full mx-auto container lg:max-w-screen-lg md:max-w-2xl">
+        <section id="about" className="section undefined scroll-m-20 px-6 lg:px-0 w-full mx-auto container max-w-md lg:max-w-screen-lg md:max-w-2xl">
             <h2 className="flex items-center mb-6 text-3xl font-semibold gap-x-3 text-black/80 dark:text-white undefined">About Me</h2>
             <article className="flex flex-col items-center justify-center gap-12 text-gray-700 dark:text-gray-300 md:flex-row">
                 <div className="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1">

@@ -8,12 +8,12 @@ export function Header(){
     const containerRef = useRef(null);
     animationInit(containerRef);
     return(
-        <header className="w-full py-1 px-4 flex flex-col items-center">
+        <header className="h-screen  w-full py-1 px-4 flex flex-col items-center">
             <Navbar/>
 
             <section className="relative w-full lg:py-28 flex flex-col items-center">
-                <article ref={containerRef} className="pt-[6rem] w-full md:max-w-screen-md lg:max-w-screen-lg">
-                    <div className="flex flex-col gap-2">
+                <article ref={containerRef} className="pt-[6rem] w-full max-w-md md:max-w-2xl lg:max-w-screen-lg">
+                    <div className="flex flex-col gap-5">
                         <div className="text-name">
                             <div className="flex gap-4 mb-4 item-rotate">
                                 <img src="./GJM.png" alt="Guillermo Juarez" className="rounded-full shadow-lg size-16" />
@@ -34,7 +34,7 @@ export function Header(){
                                 </h2>
                             </div>
                         </div>
-                        <h1 className="text-5xl md:text-7xl lg:text-8xl font-semibold item-text">Web Developer</h1>
+                        <h1 className="text-6xl md:text-8xl lg:text-8xl font-semibold item-text">Web Developer</h1>
                         <p className="item-p mt-6 max-w-screen-md lg:text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300">
                         Experienced in frontend and backend development. As a <strong>Computer Science Engineer </strong>, I've worked on creating intuitive interfaces and complete solutions. <span className="hidden lg:inline">My goal is to merge design and functionality to craft engaging and effective web experiences.</span>
                         </p>
