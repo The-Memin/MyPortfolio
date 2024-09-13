@@ -16,7 +16,7 @@ export function About(){
                     Me apasiona el aprendizaje constante y la integración de nuevas tecnologías. Mi objetivo es ofrecer <strong>soluciones que superen expectativas</strong>, brindando valor en cada proyecto que realizo.
                     </p>
                 </div>
-                <img src="./guillermo.jpeg" alt="" width="200" height="200" className="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20 "/>
+                <img src="./guillermo.webp" alt="" width="200" height="200" className="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20 "/>
             </article>
         </section>
     )

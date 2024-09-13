@@ -16,7 +16,7 @@ export function Header(){
                     <div className="flex flex-col gap-5">
                         <div className="text-name">
                             <div className="flex gap-4 mb-4 item-rotate">
-                                <img src="./GJM.png" alt="Guillermo Juarez" className="rounded-full shadow-lg size-16" />
+                                <img src="./GJM.webp" alt="Guillermo Juarez" className="rounded-full shadow-lg size-16" />
                                 <a target="_blank" href="https://www.linkedin.com/in/guillermo-juarez-martinez-665b66262/" className="flex items-center transition md:justify-center md:hover:scale-105">
                                     <div className="flex items-center ">
                                         <span className="relative inline-flex overflow-hidden rounded-full p-[1px]">

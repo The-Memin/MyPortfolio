@@ -17,21 +17,21 @@ export const JOBSINFO = [
 
 export const PROJECTS = [
     {
-        image: './assets/images/png/SolucionesVitales.png',
+        image: './assets/images/SolucionesVitales.webp',
         title: 'Soluciones Vitales',
         tecnologies:['Php','jQuery','Sass', 'Wordpress'],
         description:'Soluciones Vitales es una página web dedicada a ofrecer servicios de cirugía bariátrica en Budapest, proporcionando información clara y accesible para quienes buscan mejorar su salud a través de estos procedimientos.',
         url: 'https://solucionesvitales.com/'
     },
     {
-        image: './assets/images/png/Finding.png',
+        image: './assets/images/Finding.webp',
         title: 'Finding My Leadership Voice',
         tecnologies:['Php','jQuery','Sass', 'Wordpress'],
         description:'Desarrollé la página web para esta empresa internacional de coaching, enfocada en potenciar habilidades de liderazgo. La plataforma refleja su misión de guiar a líderes globales a descubrir y afianzar su voz de mando.',
         url: 'https://findingmyleadershipvoice.com/'
     },
     {
-        image: './assets/images/png/ReactShop.png',
+        image: './assets/images/ReactShop.webp',
         title: 'React Shop',
         tecnologies:['React','Tailwind'],
         description:'Prototipo de eShop hecho con react y tailwind, para mostrar mis habilidades en el uso de ambas tecnologias.',
