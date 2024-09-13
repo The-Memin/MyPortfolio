@@ -11,10 +11,18 @@ export function Navbar(){
     return(
         <nav ref={navRef} className="fixed h-14 w-full max-w-screen-lg flex items-center justify-center gap-4 lg:gap-10 text-sm lg:text-[1em] z-20">
             <ul className="w-fit flex gap-4 py-2 px-4 rounded-full">
-                <a href="#experience">Experience</a>
-                <a href="#projects">Last Projects</a>
-                <a href="#about">About Me</a>
-                <a href="mailto:guillejuma@outlook.es">Contact</a>
+                <li>
+                    <a href="#experience">Experience</a>
+                </li>
+                <li>
+                    <a href="#projects">Last Projects</a>
+                </li>
+                <li>
+                    <a href="#about">About Me</a>
+                </li>
+                <li>
+                    <a href="mailto:guillejuma@outlook.es">Contact</a>
+                </li>
             </ul>
         </nav>
     )
