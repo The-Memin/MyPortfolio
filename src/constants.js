@@ -17,18 +17,18 @@ export const JOBSINFO = [
 
 export const PROJECTS = [
     {
-        image: './assets/images/SolucionesVitales.webp',
-        title: 'Vital Solutions',
-        tecnologies:['Php','jQuery','Sass', 'Wordpress'],
-        description:'Vital Solutions is a website dedicated to offering bariatric surgery services in Budapest, providing clear and accessible information for those seeking to improve their health through these procedures.',
-        url: 'https://solucionesvitales.com/'
-    },
-    {
         image: './assets/images/Finding.webp',
         title: 'Finding My Leadership Voice',
         tecnologies:['Php','jQuery','Sass', 'Wordpress'],
         description:'I developed the website for this international coaching company, focused on enhancing leadership skills. The platform reflects their mission of guiding global leaders to discover and strengthen their leadership voice.',
         url: 'https://findingmyleadershipvoice.com/'
+    },
+    {
+        image: './assets/images/Naku.webp',
+        title: 'Nakú Restaurante',
+        tecnologies:['Php','jQuery','Sass', 'Wordpress'],
+        description:'Nakú is a website developed in collaboration with Ayrée for a Papantla-based restaurant in Veracruz. The site captures the essence of the restaurant, highlighting its local cuisine and culture. Designed with a focus on user experience, it allows visitors to easily explore the menu and make reservations.',
+        url: 'https://nakurestaurante.mx/'
     },
     {
         image: './assets/images/ReactShop.webp',
