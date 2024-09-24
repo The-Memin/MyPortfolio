@@ -16,6 +16,13 @@ export const JOBSINFO = [
 ]
 
 export const PROJECTS = [
+    // {
+    //     image: './assets/images/CasasChulas.webp',
+    //     title: 'Casas Chulas',
+    //     tecnologies:['Php','jQuery','Sass', 'Wordpress'],
+    //     description:'Casas Chulas is a real estate website offering specialized services for selling residences. The site is designed to showcase exclusive properties, providing users with an intuitive and visually appealing experience to explore options and easily contact agents.',
+    //     url: 'https://casaschulas.es/'
+    // },
     {
         image: './assets/images/Finding.webp',
         title: 'Finding My Leadership Voice',
@@ -35,7 +42,7 @@ export const PROJECTS = [
         title: 'React Shop',
         tecnologies:['React','Tailwind'],
         description:'eShop prototype made with react and tailwind, to show my skills in using both technologies.',
-        url: '',
+        url: 'https://reactshop.guillermojm.dev/',
         url_code: 'https://github.com/The-Memin/aprendiendo-react/tree/master/projects/07-shopping-cart'
     }
 ]
