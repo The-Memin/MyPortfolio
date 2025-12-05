@@ -8,7 +8,7 @@ export function Project({project}){
                     <img className="relative right-[-2rem] top-6 group-hover:scale-110 transition-all duration-500" src={project.image} alt="project GJM" />
                 </figure>
                 <div className="flex flex-col gap-2">
-                    <h3 className="text-2xl font-bold text-gray-800 dark:text-gray-100">{project.title}</h3>
+                    <h3 className="text-2xl font-bold text-gray-100">{project.title}</h3>
                     <div className="flex flex-wrap mt-2">
                         <ul className="flex gap-3">
                             {
@@ -17,7 +17,7 @@ export function Project({project}){
                                 )
                             }
                         </ul> 
-                        <p className="mt-4 text-gray-700 dark:text-gray-400 text-[.85em] lg:text-[1em]">
+                        <p className="mt-4 text-gray-400 text-[.85em] lg:text-[1em]">
                             {project.description}
                         </p>
                     </div>
