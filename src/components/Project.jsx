@@ -17,7 +17,7 @@ export function Project({project}){
                                 )
                             }
                         </ul> 
-                        <p className="mt-4 text-gray-400 text-[.85em] lg:text-[1em]">
+                        <p className="mt-4 text-gray-300 text-[.85em] lg:text-[1em]">
                             {project.description}
                         </p>
                     </div>
