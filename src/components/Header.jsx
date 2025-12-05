@@ -21,7 +21,7 @@ export function Header(){
                                     <div className="flex items-center ">
                                         <span className="relative inline-flex overflow-hidden rounded-full p-[1px]">
                                             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#51E4B8_0%,#21554E_50%,#51E4B8_100%)]"></span>
-                                            <div className="inline-flex items-center justify-center w-full px-3 py-1 text-sm text-green-800 bg-green-100 rounded-full cursor-pointer dark:bg-slate-800 dark:text-white/80 backdrop-blur-3xl whitespace-nowrap">
+                                            <div className="inline-flex items-center justify-center w-full px-3 py-1 text-sm text-green-800 bg-green-100 rounded-full cursor-pointer text-white/80 backdrop-blur-3xl whitespace-nowrap">
                                                 Disponible para trabajar
                                             </div>
                                         </span>
@@ -35,16 +35,16 @@ export function Header(){
                             </div>
                         </div>
                         <h1 className="text-6xl md:text-8xl lg:text-8xl font-semibold item-text">Web Developer</h1>
-                        <p className="item-p mt-6 max-w-screen-md lg:text-xl text-gray-800 dark:[&>strong]:text-yellow-200 [&>strong]:text-yellow-500 [&>strong]:font-semibold dark:text-gray-300">
+                        <p className="item-p mt-6 max-w-screen-md lg:text-xl  [&>strong]:text-yellow-500 [&>strong]:font-semibold text-gray-300">
                         Experienced in frontend and backend development. As a <strong>Computer Science Engineer </strong>, I've worked on creating intuitive interfaces and complete solutions. <span className="hidden lg:inline">My goal is to merge design and functionality to craft engaging and effective web experiences.</span>
                         </p>
 
                         <nav className="flex flex-wrap gap-4 item-y mt-6">
-                            <a href="mailto:guillejuma@outlook.es" target="_blank" rel="noopener noreferrer" role="link" className="leading-none inline-flex items-center justify-center gap-2 px-4 py-2 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-slate-800 dark:border-gray-600 dark:text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+                            <a href="mailto:guillejuma@outlook.es" target="_blank" rel="noopener noreferrer" role="link" className="leading-none inline-flex items-center justify-center gap-2 px-4 py-2 transition bg-gray-100 border border-gray-300 rounded-full text-gray-800 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
                                  <MailIcon style={{ fontSize: 16 }} />
                                 Contactame
                             </a>
-                            <a href="https://www.linkedin.com/in/guillermo-juarez-martinez-665b66262/" className="leading-none inline-flex items-center justify-center gap-2 px-4 py-2 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full dark:bg-slate-800 dark:border-gray-600 dark:text-white focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white dark:hover:bg-gray-100 dark:hover:border-gray-300 dark:hover:text-black group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+                            <a href="https://www.linkedin.com/in/guillermo-juarez-martinez-665b66262/" className="leading-none inline-flex items-center justify-center gap-2 px-4 py-2 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white  group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
                                 <LinkedInIcon style={{ fontSize: 16 }}/>
                                 Linkedin
                             </a>
