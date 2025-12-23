@@ -16,7 +16,7 @@ export function About(){
                     I'm passionate about constant learning and integrating new technologies. My goal is to offer <strong>solutions that exceed expectations</strong>, providing value in every project I undertake.
                     </p>
                 </div>
-                <img src="./guillermo.webp" alt="" width="200" height="200" className="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20 "/>
+                <img src="./compu.webp" alt="" width="200" height="200" className="order-1 object-cover w-64 h-full p-1 md:order-2 rotate-3 lg:p-2 lg:w-64 aspect-square rounded-2xl bg-black/20 dark:bg-yellow-500/5 ring-1 ring-black/70 dark:ring-white/20 "/>
             </article>
         </section>
     )
