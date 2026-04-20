@@ -23,7 +23,7 @@ export function Header(){
                                         <span className="relative inline-flex overflow-hidden rounded-full p-[1px]">
                                             <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#51E4B8_0%,#21554E_50%,#51E4B8_100%)]"></span>
                                             <div className="inline-flex items-center justify-center w-full px-3 py-1 text-sm text-green-800 rounded-full cursor-pointer bg-slate-800 text-white/80 backdrop-blur-3xl whitespace-nowrap">
-                                                Disponible para trabajar
+                                                Available for work
                                             </div>
                                         </span>
                                     </div>
@@ -35,9 +35,9 @@ export function Header(){
                                 </h2>
                             </div>
                         </div>
-                        <h1 className="text-6xl md:text-8xl lg:text-8xl font-semibold item-text">Web Developer</h1>
+                        <h1 className="text-6xl md:text-8xl lg:text-8xl font-semibold item-text">Software Engineer</h1>
                         <p className="item-p mt-6 max-w-screen-md lg:text-xl  [&>strong]:text-yellow-500 [&>strong]:font-semibold text-gray-300">
-                        Experienced in frontend and backend development. As a <strong>Computer Science Engineer </strong>, I've worked on creating intuitive interfaces and complete solutions. <span className="hidden lg:inline">My goal is to merge design and functionality to craft engaging and effective web experiences.</span>
+                        Experienced software engineer focused on frontend web development. As a <strong>Computer Science Engineer</strong>, I build scalable and maintainable web applications, combining modern technologies with strong engineering practices. <span className="hidden lg:inline">My goal is to create performant, intuitive interfaces that deliver reliable and engaging user experiences.</span>
                         </p>
 
                         <nav className="flex flex-wrap gap-4 item-y mt-6">
