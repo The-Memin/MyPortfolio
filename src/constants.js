@@ -16,13 +16,13 @@ export const JOBSINFO = [
 ]
 
 export const PROJECTS = [
-    // {
-    //     image: './assets/images/CasasChulas.webp',
-    //     title: 'Casas Chulas',
-    //     tecnologies:['Php','jQuery','Sass', 'Wordpress'],
-    //     description:'Casas Chulas is a real estate website offering specialized services for selling residences. The site is designed to showcase exclusive properties, providing users with an intuitive and visually appealing experience to explore options and easily contact agents.',
-    //     url: 'https://casaschulas.es/'
-    // },
+    {
+        image: './assets/images/concepto.webp',
+        title: 'Concepto Spa&Hogar',
+        tecnologies:['Astro','React','Tailwind', 'Wordpress'],
+        description:'Concepto Spa & Hogar is a website developed for an aromatherapy and wellness brand based in Oaxaca, Mexico. The platform showcases essential oils, diffusers, and home products through a clean visual experience designed to convey calm, balance, and well-being.',
+        url: 'https://conceptosyh.com/'
+    },
     {
         image: './assets/images/Finding.webp',
         title: 'Finding My Leadership Voice',
@@ -31,18 +31,18 @@ export const PROJECTS = [
         url: 'https://findingmyleadershipvoice.com/'
     },
     {
+        image: './assets/images/exer.webp',
+        title: 'Exer',
+        tecnologies:['Wordpress','Elementor'],
+        description:'eShop prototype made with react and tailwind, to show my skills in using both technologies.',
+        url: 'https://reactshop.guillermojm.dev/',
+        url_code: 'https://github.com/The-Memin/aprendiendo-react/tree/master/projects/07-shopping-cart'
+    },
+    {
         image: './assets/images/Naku.webp',
         title: 'Nakú Restaurante',
         tecnologies:['Php','jQuery','Sass', 'Wordpress'],
         description:'Nakú is a website developed in collaboration with Ayrée for a Papantla-based restaurant in Veracruz. The site captures the essence of the restaurant, highlighting its local cuisine and culture. Designed with a focus on user experience, it allows visitors to easily explore the menu and make reservations.',
         url: 'https://nakurestaurante.mx/'
     },
-    {
-        image: './assets/images/ReactShop.webp',
-        title: 'React Shop',
-        tecnologies:['React','Tailwind'],
-        description:'eShop prototype made with react and tailwind, to show my skills in using both technologies.',
-        url: 'https://reactshop.guillermojm.dev/',
-        url_code: 'https://github.com/The-Memin/aprendiendo-react/tree/master/projects/07-shopping-cart'
-    }
 ]
