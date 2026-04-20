@@ -3,6 +3,7 @@ import { useRef } from "react";
 import { animationInit } from "../animations/animationInit";
 import MailIcon from '@mui/icons-material/Mail';
 import LinkedInIcon from '@mui/icons-material/LinkedIn';
+import { WhatsApp } from "@mui/icons-material";
 
 export function Header(){
     const containerRef = useRef(null);
@@ -42,12 +43,17 @@ export function Header(){
                         <nav className="flex flex-wrap gap-4 item-y mt-6">
                             <a href="mailto:guillejuma@outlook.es" target="_blank" rel="noopener noreferrer" role="link" className="leading-none inline-flex items-center justify-center gap-2 px-4 py-2 transition bg-gray-100 border border-gray-300 rounded-full text-gray-800 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
                                  <MailIcon style={{ fontSize: 16 }} />
-                                Contactame
+                                Contact me
                             </a>
                             <a href="https://www.linkedin.com/in/guillermo-juarez-martinez-665b66262/" className="leading-none inline-flex items-center justify-center gap-2 px-4 py-2 text-gray-800 transition bg-gray-100 border border-gray-300 rounded-full focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white  group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
                                 <LinkedInIcon style={{ fontSize: 16 }}/>
                                 Linkedin
                             </a>
+                            <a href="https://wa.me/5219515786667" target="_blank" rel="noopener noreferrer" role="link" className="leading-none inline-flex items-center justify-center gap-2 px-4 py-2 transition bg-gray-100 border border-gray-300 rounded-full text-gray-800 focus-visible:ring-yellow-500/80 text-md hover:bg-gray-900 hover:border-gray-700 hover:text-white group max-w-fit focus:outline-none focus-visible:outline-none focus-visible:ring focus-visible:ring-white focus-visible:ring-offset-2 active:bg-black">
+                                <WhatsApp style={{ fontSize: 16 }} />
+                                WhatsApp
+                            </a>
+
                         </nav>
                     </div>
                 </article>
