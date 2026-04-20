@@ -24,19 +24,18 @@ export const PROJECTS = [
         url: 'https://conceptosyh.com/'
     },
     {
+        image: './assets/images/exer.webp',
+        title: 'Exer',
+        tecnologies:['Wordpress','Elementor'],
+        description:'eShop prototype made with react and tailwind, to show my skills in using both technologies.',
+        url: 'https://reactshop.guillermojm.dev/'
+    },
+    {
         image: './assets/images/Finding.webp',
         title: 'Finding My Leadership Voice',
         tecnologies:['Php','jQuery','Sass', 'Wordpress'],
         description:'I developed the website for this international coaching company, focused on enhancing leadership skills. The platform reflects their mission of guiding global leaders to discover and strengthen their leadership voice.',
         url: 'https://findingmyleadershipvoice.com/'
-    },
-    {
-        image: './assets/images/exer.webp',
-        title: 'Exer',
-        tecnologies:['Wordpress','Elementor'],
-        description:'eShop prototype made with react and tailwind, to show my skills in using both technologies.',
-        url: 'https://reactshop.guillermojm.dev/',
-        url_code: 'https://github.com/The-Memin/aprendiendo-react/tree/master/projects/07-shopping-cart'
     },
     {
         image: './assets/images/Naku.webp',
