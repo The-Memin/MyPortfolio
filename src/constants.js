@@ -27,7 +27,7 @@ export const PROJECTS = [
         image: './assets/images/exer.webp',
         title: 'Exer',
         tecnologies:['Wordpress','Elementor'],
-        description:'eShop prototype made with react and tailwind, to show my skills in using both technologies.',
+        description:'EXER is a website developed for a vehicle transport company specializing in car shipping using car carrier trucks. The project highlights services focused on safety, punctuality, and efficiency, providing reliable solutions for dealerships, businesses, and individual customers.',
         url: 'https://reactshop.guillermojm.dev/'
     },
     {

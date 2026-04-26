@@ -79,7 +79,7 @@ export function About(){
                     className="[&>p]:mb-4 [&>p>strong]:text-yellow-500 dark:[&>p>strong]:text-yellow-100 [&>p>strong]:font-normal [&>p>strong]:font-mono text-pretty order-2 md:order-1"
                 >
                     <p className="prose dark:prose-invert text-gray-300 max-w-none">
-                    'm Guillermo, a Computer Science engineer and software developer focused on building modern and responsive web applications. I specialize in frontend development using React, JavaScript, HTML5, and CSS3, with additional experience working with backend technologies such as Node.js and PHP. I enjoy creating scalable, well-structured applications and integrating RESTful APIs to deliver dynamic and efficient user experiences. I'm passionate about continuous learning and improving my development skills by exploring new technologies and best practices.
+                    I'm Guillermo, a Computer Science engineer and software developer focused on building modern and responsive web applications. I specialize in frontend development using React, JavaScript, HTML5, and CSS3, with additional experience working with backend technologies such as Node.js and PHP. I enjoy creating scalable, well-structured applications and integrating RESTful APIs to deliver dynamic and efficient user experiences. I'm passionate about continuous learning and improving my development skills by exploring new technologies and best practices.
                     </p>
                 </div>
 
